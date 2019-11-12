@@ -220,9 +220,6 @@ class SVMSGD(BaseEstimator):
 
                 avg_cost = sum(cost)/len(mini_y)
                 self.cost_.append(avg_cost)
-        #print("wx: ",self.w_[1:])
-        #print("w:",self.w_)
-        #print("b:",self.b_)
         return self
 
     def net_input(self, X):
